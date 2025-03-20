@@ -1,4 +1,4 @@
-let numero = +prompt('scegli un numero da 1 a 50')
+let numero = +prompt('Fino a che nummero vuoi contare?')
 function number(n) {
     for (let i = 1; i <= n; i++) {
         if(i % 15 == 0){
